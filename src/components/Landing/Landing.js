@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import { Button } from '@material-ui/core';
 import { NavHashLink as NavLink } from 'react-router-hash-link';
 import { makeStyles } from '@material-ui/core/styles';
+import profile from "../../assets/svg/about/profile.jfif"
 
 import './Landing.css';
 import { ThemeContext } from '../../contexts/ThemeContext';
@@ -143,7 +144,7 @@ function Landing() {
                     </div>
                 </div>
                 <img
-                    src={headerData.image}
+                    src={profile}
                     alt=''
                     className='landing--img'
                     style={{
