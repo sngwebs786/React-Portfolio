@@ -42,6 +42,7 @@ import contactsPurple from '../assets/svg/contacts/contactsPurple.svg'
 import contactsRed from '../assets/svg/contacts/contactsRed.svg'
 import contactsYellow from '../assets/svg/contacts/contactsYellow.svg'
 import who from "../assets/svg/about/who.svg";
+import mobile from "../assets/svg/skills/mobile.jfif";
 
 
 export { 
@@ -49,5 +50,5 @@ export {
     orangeThemegirl, pinkThemeboy, pinkThemegirl, purpleThemeboy, purpleThemegirl, redThemeboy, redThemegirl,
     yellowThemeboy,yellowThemegirl,eduBlue,eduBlack,eduGreen,eduOrange,eduPink,eduPurple,eduRed,eduYellow,
     expBlue,expBlack,expGreen,expOrange,expPink,expPurple,expRed,expYellow,contactsBlue,contactsBlack,
-    contactsGreen,contactsOrange,contactsPink,contactsPurple,contactsRed,contactsYellow,who
+    contactsGreen,contactsOrange,contactsPink,contactsPurple,contactsRed,contactsYellow,who,mobile
 }

@@ -1,3 +1,5 @@
+
+import mobile from "../assets/svg/skills/mobile.jfif"
 export const achievementData = {
   bio: "Putting quantified achievements on a resume is great, but I just don’t work with hard numbers. I have no data to support the quality of my work. If you have lots of relevant experience, the heading statement of your resume will be a summary.",
   achievements: [
@@ -5,31 +7,31 @@ export const achievementData = {
       id: 1,
       title: "Mobile Application Development",
       details:
-        "Google Cloud certifications validate your expertise and showcase your ability to transform businesses with Google Cloud technology.",
-      date: "Aug 20, 2019",
-      field: "Automation",
+        "Flutter and Django Certification from Jawan Pakistan , included frontend and backend both",
+      date: "March 20, 2022",
+      field: "App Development",
       image:
-        "https://images.unsplash.com/photo-1573141597928-403fcee0e056?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80",
+        "https://www.vaival.com/wp-content/uploads/2021/01/vaival-application.png",
     },
     {
       id: 2,
-      title: "AWS Certification",
+      title: "Freelance Workshop Certification",
       details:
         "Validate technical skills and cloud expertise to grow your career and business.",
-      date: "Aug 20, 2019",
+      date: "Nov 18, 2021",
       field: "Automation",
       image:
-        "https://images.unsplash.com/photo-1523474253046-8cd2748b5fd2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRchYU8Qr5yujaIY5pCNItVbjwZp860ybpK2EVjk4CaJOlc-3J7WQG1mO_KKzrp_c74J4I&usqp=CAU",
     },
     {
       id: 3,
-      title: "Professional Data Engineer Certification",
+      title: "Good Core Certification",
       details:
-        "Professional Data Engineers enable data-driven decision making by collecting, transforming, and publishing data.",
+        "Participating in Mobile App Development Competition held in NEDUET",
       date: "Aug 20, 2019",
       field: "Automation",
       image:
-        "https://images.unsplash.com/photo-1489389944381-3471b5b30f04?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+        "https://www.digitalmarketingcommunity.com/wp-content/uploads/2020/03/GoodCore.png",
     },
   ],
 };

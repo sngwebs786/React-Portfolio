@@ -6,82 +6,81 @@ import five from '../assets/svg/projects/five.svg'
 import six from '../assets/svg/projects/six.svg'
 import seven from '../assets/svg/projects/seven.svg'
 import eight from '../assets/svg/projects/eight.svg'
+import newsapp from "../assets/svg/projects/newsapp.jpg";
+import todo from "../assets/svg/projects/todo.png";
+import weather from "../assets/svg/projects/weather.jfif";
+import chat from "../assets/svg/projects/chat.jfif";
+import cam from "../assets/svg/projects/cam.jfif";
+import ecom from "../assets/svg/projects/ecom.jfif";
 
 
 export const projectsData = [
-    {
-        id: 1,
-        projectName: 'Employee Management',
-        projectDesc: 'This project aims to build an employee management system that consolidates all information of a company',
-        tags: ['React', 'CSS', 'Material Ui'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: one
-    },
-    {
-        id: 2,
-        projectName: 'Railway Tracking',
-        projectDesc: 'This project is a railway tracking system that allows users to obtain relevant information about train timing.',
-        tags: ['Django', 'Tailwind CSS'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: two
-    },
-    {
-        id: 3,
-        projectName: 'Weather App',
-        projectDesc: 'Weather forecast systems and applications predict weather conditions based on multiple parameters.',
-        tags: ['Django', 'CSS', 'Material Ui'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: three
-    },
-    {
-        id: 4,
-        projectName: 'Android Patient Tracker',
-        projectDesc: 'This project involves the development of an Android application for viewing and managing patient data.',
-        tags: ['Flutter', 'Firebase'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: four
-    },
-    {
-        id: 5,
-        projectName: 'E-Commerce App',
-        projectDesc: 'A Simple E-commerce application',
-        tags: ['React Native', 'Firebase'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: five
-    },
-    {
-        id: 6,
-        projectName: 'Uber Lite',
-        projectDesc: 'Uber clone',
-        tags: ['Flutter'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: six
-    },
-    {
-        id: 7,
-        projectName: 'Stock Market App',
-        projectDesc: 'A simple stock market API app',
-        tags: ['React', 'Redux', 'Bootstrap'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: seven
-    },
-    {
-        id: 8,
-        projectName: 'Car Pooling System',
-        projectDesc: 'The carpooling system merges multiple people in a car which leads to meet new people, reduces pollution',
-        tags: ['Flutter', 'React'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: eight
-    },
-]
+  {
+    id: 1,
+    projectName: "News Application",
+    projectDesc:
+      "This app shows news on the basis of different categories with sources and webpage available",
+    tags: ["Flutter", "Dart", "API"],
+    code: "https://github.com/rafay51698/News-App-Flutter",
+    demo: "https://github.com/hhhrrrttt222111/developer-portfolio",
+    image: newsapp,
+  },
+  {
+    id: 2,
+    projectName: "Todo App",
+    projectDesc: "This app shows tasks of users using cloud firestore",
+    tags: ["Flutter", "Firebase", "GetX"],
+    code: "https://github.com/rafay51698/Todo-App-Flutter-Fire",
+    demo: "https://github.com/hhhrrrttt222111/developer-portfolio",
+    image: todo,
+  },
+  {
+    id: 3,
+    projectName: "Weather App",
+    projectDesc:
+      "Weather forecast systems and applications predict weather conditions based on multiple parameters.",
+    tags: ["Flutter", "Dart", "API"],
+    code: "https://github.com/rafay51698/Flutter-Weather-App",
+    demo: "https://github.com/hhhrrrttt222111/developer-portfolio",
+    image: weather,
+  },
+  {
+    id: 4,
+    projectName: "E-Commerce App",
+    projectDesc: "A Simple E-commerce application",
+    tags: ["Flutter", "Dart"],
+    code: "https://github.com/rafay51698/Hackathon-Application",
+    demo: "https://github.com/hhhrrrttt222111/developer-portfolio",
+    image: ecom,
+  },
+  {
+    id: 5,
+    projectName: "Chat App",
+    projectDesc: "A Simple and user-friendly chat application",
+    tags: ["Flutter", "Firebase"],
+    code: "https://github.com/rafay51698/Chat-App-Flutter-",
+    demo: "https://github.com/hhhrrrttt222111/developer-portfolio",
+    image: chat,
+  },
+  {
+    id: 6,
+    projectName: "Camscanner App",
+    projectDesc: "An app where you can scan sny document.",
+    tags: ["Flutter", "OpenCv", "Document Scanner"],
+    code: "https://github.com/rafay51698/Cam-Scanner-Flutter",
+    demo: "https://github.com/hhhrrrttt222111/developer-portfolio",
+    image: cam,
+  },
+  //   {
+  //     id: 7,
+  //     projectName: "E-Commerce App",
+  //     projectDesc: "A Simple E-commerce application",
+  //     tags: ["React Native", "Firebase"],
+  //     code: "https://github.com/hhhrrrttt222111/developer-portfolio",
+  //     demo: "https://github.com/hhhrrrttt222111/developer-portfolio",
+  //     image: five,
+  //   },
+];
 
 
 // Do not remove any fields.
